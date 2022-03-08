@@ -60,10 +60,22 @@ ASSIGNMENT RULES
 /* EXERCISE 1
     Write a function called dice; it should randomize an integer number between 1 and 6.
 */
+// const dice =function(max) {
+//     return Math.floor(Math.random() * max);
+// }
+// console.log(dice(6));
 
 /* EXERCISE 2
     Write a function called whoIsBigger which receives 2 numbers as parameters and returns the biggest one.
 */
+const whoIsBigger = function(a,b) {
+    if (a > b) {
+       return a;
+    } else {
+        return b;
+    }
+}
+console.log(whoIsBigger(8,6));
 
 /* EXERCISE 3
     Write a function called splitMe which receives a string as a parameter and returns an array with every word in that string.
